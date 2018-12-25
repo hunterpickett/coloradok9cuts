@@ -1,2 +1,7 @@
 @tailwind preflight;
 @tailwind utilities;
+@tailwind components;
+
+.header-img {
+  background-image: url('img/header.jpg');
+}
