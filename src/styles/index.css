@@ -3,5 +3,5 @@
 @tailwind components;
 
 .header-img {
-  background-image: url('img/header.jpg');
+  background-image: url('img/header-darker.jpg');
 }

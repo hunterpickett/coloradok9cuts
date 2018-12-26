@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import './App.css';
 import './index.css';
 import { NavBar } from './components/navBar/navBar';
+import { HeroText } from './components/heroText';
+import { Services } from './components/services/services';
+import { Pricing } from './components/pricing';
+import { MeetKristen } from './components/meetKristen';
+import { Footer } from './components/footer';
+import { Content } from './components/content';
+import { Gallery } from './components/gallery/gallery';
 
 class App extends Component {
   render() {
@@ -12,12 +19,25 @@ class App extends Component {
             <NavBar />
           </div>
         </div>
-        <div className="container flex justify-center">
-          <div className="text-center">
-            <h1>Colorado K9 Cuts</h1>
-            <h2>Professional, Experienced Mobile Dog Grooming</h2>
-            <h3>Cage Free, All-inclusive service at your front door!</h3>
-          </div>
+        <div>
+          <Content>
+            <HeroText />
+          </Content>
+          <Content className="mt-6">
+            <Services />
+          </Content>
+          <Content dark>
+            <Pricing />
+          </Content>
+          <Content>
+            <Gallery />
+          </Content>
+          <Content dark>
+            <MeetKristen />
+          </Content>
+          <Content>
+            <Footer />
+          </Content>
         </div>
       </>
     );
