@@ -13,7 +13,7 @@ const fullServiceBullets = [
   'Seasonal Colognes'
 ];
 
-const nailsBullets = ['Nail Trimming and grinding'];
+const nailsBullets = ['Nail Trimming', 'Nail Grinding'];
 
 const bathBullets = [
   'Bath w/ Premium Shampoo/Conditioner',
@@ -29,10 +29,22 @@ const bathBullets = [
 
 export const Services = () => {
   return (
-    <div className="flex sm:flex-row justify-between flex-col">
-      <Service title="Full Service Grooming" bullets={fullServiceBullets} />
-      <Service title="Nails" bullets={nailsBullets} />
-      <Service title="Bath" bullets={bathBullets} />
+    <div className="flex sm:flex-row justify-between flex-col mb-4">
+      <Service
+        title="Full Service Grooming"
+        subtitle="For the discerning pet owner "
+        bullets={fullServiceBullets}
+      />
+      <Service
+        title="Nails"
+        subtitle="Getting scratched a little much?"
+        bullets={nailsBullets}
+      />
+      <Service
+        title="Bath"
+        subtitle="For the world's cleanest puppy"
+        bullets={bathBullets}
+      />
     </div>
   );
 };
