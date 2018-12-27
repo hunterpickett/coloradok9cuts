@@ -42,7 +42,7 @@ export const Services = () => {
       />
       <Service
         title="Bath"
-        subtitle="For the world's cleanest puppy"
+        subtitle="The world's cleanest puppy"
         bullets={bathBullets}
       />
     </div>

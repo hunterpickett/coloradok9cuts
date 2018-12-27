@@ -1,0 +1,7 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+.header-img {
+  background-image: url('/static/header-darker.jpg');
+}
