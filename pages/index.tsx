@@ -24,13 +24,13 @@ const Index = () => {
         <Content className="mt-6">
           <Services />
         </Content>
-        <Content dark>
+        <Content>
           <Pricing />
         </Content>
         <Content>
           <Gallery />
         </Content>
-        <Content dark>
+        <Content>
           <MeetKristen />
         </Content>
         <Content>

@@ -20,5 +20,8 @@
 
 .header-img {
   background-image: url('/static/header-darker-sm.jpg');
-  height: 1000px;
+  width: 100%;
+  height: 60vw;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
