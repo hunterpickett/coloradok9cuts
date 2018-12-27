@@ -29,7 +29,7 @@ const bathBullets = [
 
 export const Services = () => {
   return (
-    <div className="flex sm:flex-row justify-between flex-col mb-4">
+    <div className="flex flex-col md:flex-row justify-between mb-4">
       <Service
         title="Full Service Grooming"
         subtitle="For the discerning pet owner "

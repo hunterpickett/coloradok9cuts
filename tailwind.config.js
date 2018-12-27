@@ -210,6 +210,7 @@ module.exports = {
       'sans-serif',
     ],
     'serif': [
+      'Roboto Slab',
       'Droid Serif',
       'Constantia',
       'Lucida Bright',

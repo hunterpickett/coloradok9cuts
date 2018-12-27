@@ -2,11 +2,11 @@ import React from 'react';
 
 export const MeetKristen = () => {
   return (
-    <div className="text-center font-sans font-light p-6">
-      <h1 className="text-3xl font-sans mb-3 sm:text-5xl font-light">
+    <div className="text-center font-serif font-light p-6">
+      <h1 className="text-4xl font-sans mb-3 sm:text-5xl font-light">
         Meet Kristen
       </h1>
-      <h2 className="text-2xl mb-3 sm:text-4xl font-light">
+      <h2 className="text-lg text-left md:text-2xl leading-normal md:text-center mb-3 ">
         Hello, my name is Kristen Nail and I have been grooming since 2010. I
         have always loved animals and I love that I get to work with them
         everyday. I have a Rhodesian Ridgeback named Tucker and a Mastiff /

@@ -12,7 +12,7 @@ import { Gallery } from './components/gallery/gallery';
 const Index = () => {
   return (
     <>
-      <div className="header-img" style={{ height: 1000 }}>
+      <div className="header-img">
         <div className="flex container justify-end">
           <NavBar />
         </div>
