@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .header-img {
-  background-image: url('/static/header-darker.jpg');
+  background-image: url('/static/header-darker-sm.jpg');
 }
