@@ -10,7 +10,7 @@ interface IProps {
 export const Service: React.SFC<IProps> = props => {
   const { title, subtitle, bullets } = props;
   return (
-    <div className="p-3 bg-blue-lighter text-black shadow-lg rounded-lg my-6 mx-2">
+    <div className="p-3 border-blue-light border-t-4 text-black shadow-lg rounded-lg my-6 mx-2">
       <h3 className="text-2xl md:text-4xl text-center mb-2 font-sans">
         {title}
       </h3>
