@@ -31,21 +31,9 @@ export const Services = () => {
   return (
     <section id="services">
       <div className="flex flex-col lg:flex-row justify-between mb-4">
-        <Service
-          title="Full Service Grooming"
-          subtitle="For the discerning pet owner "
-          bullets={fullServiceBullets}
-        />
-        <Service
-          title="Nails"
-          subtitle="Getting scratched a little much?"
-          bullets={nailsBullets}
-        />
-        <Service
-          title="Bath"
-          subtitle="The world's cleanest puppy"
-          bullets={bathBullets}
-        />
+        <Service title="Full Service Grooming" bullets={fullServiceBullets} />
+        <Service title="Nails" bullets={nailsBullets} />
+        <Service title="Bath" bullets={bathBullets} />
       </div>
     </section>
   );

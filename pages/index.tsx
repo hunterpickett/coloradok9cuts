@@ -13,9 +13,7 @@ const Index = () => {
   return (
     <>
       <div className="header-img">
-        <div className="flex container justify-end">
-          <NavBar />
-        </div>
+        <NavBar />
       </div>
       <div>
         <Content>

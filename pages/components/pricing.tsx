@@ -15,7 +15,7 @@ export const Pricing = () => {
           To get a quote please text or email me with breed, size, weight, and
           desired service
         </h3>
-        <div className="text-xl md:text-3xl leading-normal mt-2">
+        <div className="flex justify-around text-xl md:text-3xl leading-normal mt-4">
           <p>720-593-1742</p>
           <a className="text-black" href="mailto:coloradok9cuts@gmail.com">
             ColoradoK9Cuts@gmail.com

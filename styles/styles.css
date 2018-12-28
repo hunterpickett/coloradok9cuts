@@ -27,7 +27,7 @@
 }
 
 .social-media {
-  @apply h-10 w-10 text-black cursor-pointer;
+  @apply h-10 w-10 ml-3 cursor-pointer;
 }
 
 .gallery-puppy {
