@@ -9,7 +9,7 @@ export const NavItem: React.SFC<IProps> = props => {
   return (
     <a
       href={'#' + name.toLowerCase()}
-      className="no-underline p-6 pointer text-base text-grey-lighter hover:text-blue"
+      className="text-xl no-underline p-6 pointer text-base text-grey-lighter hover:text-blue"
     >
       {name}
     </a>

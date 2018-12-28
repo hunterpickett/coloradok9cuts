@@ -31,5 +31,12 @@
 }
 
 .gallery-puppy {
-  margin: 6px;
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 1200) {
+  .gallery-puppy {
+    margin: 2rem;
+  }
 }
