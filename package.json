@@ -8,9 +8,10 @@
     "export": "next export",
     "now": "now",
     "dev": "node server.js",
+    "next-build": "next build",
     "build": "./node_modules/next/dist/bin/next build",
     "heroku-postbuild": "./node_modules/next/dist/bin/next build",
-    "start": "node server.js"
+    "start": "next start"
   },
   "keywords": [],
   "author": "",
