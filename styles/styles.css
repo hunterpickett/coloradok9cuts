@@ -25,3 +25,11 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.social-media {
+  @apply h-10 w-10 text-black cursor-pointer;
+}
+
+.gallery-puppy {
+  margin: 6px;
+}

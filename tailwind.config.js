@@ -104,6 +104,7 @@ let colors = {
   'blue-lighter': '#bcdefa',
   'blue-lightest': '#eff8ff',
   'blue-compliment': '#3d3b31',
+  'blue-facebook': '#3b5998',
 
   'indigo-darkest': '#191e38',
   'indigo-darker': '#2f365f',
@@ -120,6 +121,7 @@ let colors = {
   'purple-light': '#a779e9',
   'purple-lighter': '#d6bbfc',
   'purple-lightest': '#f3ebff',
+  'purple-instagram': '#8a3ab9',
 
   'pink-darkest': '#451225',
   'pink-darker': '#6f213f',

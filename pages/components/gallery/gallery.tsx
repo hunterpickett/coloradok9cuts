@@ -2,8 +2,20 @@ import React from 'react';
 
 export const Gallery = () => {
   return (
-    <div className="text-center">
-      <h1>Gallery</h1>
-    </div>
+    <section id="gallery">
+      <div className="text-center font-sans p-6">
+        <h1 className="text-3xl mb-3 sm:text-5xl font-light">Gallery</h1>
+        <div className="flex flex-col md:flex-row items-center md:justify-between md:mb-3 ">
+          <img className="gallery-puppy" src="/static/0.jpg" />
+          <img className="gallery-puppy" src="/static/1.jpg" />
+          <img className="gallery-puppy" src="/static/2.jpg" />
+        </div>
+        <div className="flex flex-col md:flex-row items-center md:justify-between">
+          <img className="gallery-puppy" src="/static/3.jpg" />
+          <img className="gallery-puppy" src="/static/4.jpg" />
+          <img className="gallery-puppy" src="/static/5.jpg" />
+        </div>
+      </div>
+    </section>
   );
 };

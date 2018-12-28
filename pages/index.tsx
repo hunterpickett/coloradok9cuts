@@ -5,7 +5,7 @@ import { HeroText } from './components/heroText';
 import { Services } from './components/services/services';
 import { Pricing } from './components/pricing';
 import { MeetKristen } from './components/meetKristen';
-import { Footer } from './components/footer';
+import { Footer } from './components/footer/footer';
 import { Content } from './components/content';
 import { Gallery } from './components/gallery/gallery';
 

@@ -7,7 +7,7 @@ export const NavBar = () => {
       <NavItem name="Services" />
       <NavItem name="Pricing" />
       <NavItem name="Gallery" />
-      <NavItem name="Contact" />
+      {/* <NavItem name="Contact" /> */}
     </div>
   );
 };
