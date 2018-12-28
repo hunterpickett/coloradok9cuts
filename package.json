@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
     "export": "next export",
-    "now": "now"
+    "now": "now",
+    "dev": "node server.js",
+    "build": "./node_modules/next/dist/bin/next build",
+    "heroku-postbuild": "./node_modules/next/dist/bin/next build",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
