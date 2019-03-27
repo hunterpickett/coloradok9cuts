@@ -9,4 +9,4 @@ Future enhancements Include:
   Accessibility Improvements
   Serve it over HTTPS
 
-![Site](https://gitlab.com/sanyangkkun/coloradok9cuts/blob/master/static/site.png)
+![Site](https://gitlab.com/sanyangkkun/coloradok9cuts/raw/master/static/site.png)
