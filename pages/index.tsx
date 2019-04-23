@@ -14,10 +14,15 @@ const Index = () => {
   return (
     <>
       <Head>
-        <meta name="title" content="Colorado K9 Cuts | Professional, Experienced Mobile Dog Grooming" />
+        <title>title" content="Colorado K9 Cuts | Professional, Experienced Mobile Dog Grooming"</title>
         <meta
           name="description"
-          content="Colorado K9 Cuts services from Monument to Fountain, CO. Services offered include full service grooming, nail trims, and baths."
+          content="Colorado K9 Cuts provides mobile dog grooming services in the Colorado Springs area. Services offered include full service grooming, nail trims, and baths."
+        />
+        <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" />
+        <meta
+          name="keywords"
+          content="Dog, Puppy, Mobile Dog Grooming, Colorado, Colorado Springs, Monument, Fountain, Nail Trim, Dog Haircut, Dog Bath, Puppy Bath"
         />
       </Head>
       <div className="header-img">
