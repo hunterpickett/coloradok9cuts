@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Head from 'next/head';
 import '../styles/styles.css';
 import { NavBar } from './components/navBar/navBar';
 import { HeroText } from './components/heroText';
@@ -12,6 +13,13 @@ import { Gallery } from './components/gallery/gallery';
 const Index = () => {
   return (
     <>
+      <Head>
+        <meta name="title" content="Colorado K9 Cuts | Professional, Experienced Mobile Dog Grooming" />
+        <meta
+          name="description"
+          content="Colorado K9 Cuts services from Monument to Fountain, CO. Services offered include full service grooming, nail trims, and baths."
+        />
+      </Head>
       <div className="header-img">
         <NavBar />
       </div>
