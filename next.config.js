@@ -9,7 +9,13 @@ class TailwindExtractor {
   }
 }
 
-const nextConfig = {};
+const nextConfig = {
+  exportPathMap: async function(defaultPathMap) {
+    return {
+      '/': { page: '/index' }
+    };
+  }
+};
 module.exports = withPlugins(
   [
     typescriptPlugin,
